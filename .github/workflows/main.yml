@@ -5,7 +5,6 @@ jobs:
     name: Hello world action
     runs-on: macOS-latest
     steps:
-      - uses: actions/checkout@master
       - uses: ./action-a
         env:
           MY_NAME: "Mona"
